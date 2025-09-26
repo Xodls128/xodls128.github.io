@@ -9,8 +9,8 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 
-.page__content {
-  padding: 2rem; // 위아래, 좌우 여백
-  max-width: 900px; // (선택) 본문 최대 폭 제한
-  margin: 0 auto;   // 가운데 정렬
+.layout--single .page__content {
+  padding: 2rem !important;
+  max-width: 900px !important;
+  margin: 0 auto !important;
 }
