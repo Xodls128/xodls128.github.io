@@ -9,7 +9,8 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 
-body.layout--post main#main {
-  background: lightblue !important;
+body.layout--post .initial-content {
   padding: 2rem !important;
+  max-width: 900px;
+  margin: 0 auto;
 }
