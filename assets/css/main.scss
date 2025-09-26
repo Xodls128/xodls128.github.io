@@ -9,17 +9,11 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 
-.layout--post .page__content,
 .layout--post .entry-content {
   padding: 2rem !important;
-  max-width: 900px !important;
-  margin: 0 auto !important;
+  max-width: 900px;
+  margin: 0 auto;
 }
-
-.layout--post #main {
-  padding: 2rem !important;
-  max-width: 900px !important;
-  margin: 0 auto !important;
+body {
+  padding: 0 2rem; /* 좌우만 */
 }
-
-body { background: pink !important; }
