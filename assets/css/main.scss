@@ -9,7 +9,8 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 
-.layout--post .entry-content {
+body.layout--post .page__content,
+body.layout--post .page__content .entry-content {
   padding: 2rem !important;
   max-width: 900px;
   margin: 0 auto;
